@@ -388,7 +388,8 @@ int main(int argc, char **argv) {
 
 	ARGBEGIN {
 	case 'v':
-		eprintf("nbwmon-%s\n", VERSION);
+		printf("nbwmonm-%s\n", VERSION);
+		return 0;
 	case 'C':
 		colors = false;
 		break;
